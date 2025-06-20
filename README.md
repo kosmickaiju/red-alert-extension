@@ -1,5 +1,6 @@
-# Red Alert: CVE Alert Dashboard Google Chrome Extension (under review for publishing!)
+# Red Alert: CVE Alert Dashboard Google Chrome Extension (Version 1.0 out now!)
 
-This CVE extension is a downloadable Google Chrome extension that displays a new CVE every 30 minutes. The extension fetches CVEs found in the last 24 hours from the NVD API and rotates through each CVE every 30 minutes.
-
-Languages used: HTML and JavaScript
+## What is it?
+## How It Works/How to Use
+## Tech Stack
+This extension was written using **HTML/CSS/JS**, with information about CVEs being pulled from the **NVD CVE API**.
