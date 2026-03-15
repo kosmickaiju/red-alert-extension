@@ -1,7 +1,7 @@
-# Red Alert: CVE Alert Dashboard Google Chrome Extension (Version 1.0 out now, version 2.0 under review!)
+# Red Alert: CVE Alert Dashboard Google Chrome Extension (Version 2.1 being debugged!)
 
 ## What is it?
-This is a Google Chrome extension focused on delivering information about Common Vulnerabilities and Exploits (CVEs) in a simple, easy to understand way. The extension uses a dashboard to provide streamlined briefings about CVEs found and posted within the last 24 hours, refreshing with new briefings every 30 minutes (or on manual refresh).
+This is a Google Chrome extension focused on delivering information about Common Vulnerabilities and Exploits (CVEs) in a simple, easy to understand way. The extension uses a dashboard to provide streamlined briefings about CVEs found and posted within the last 24 hours, refreshing with new briefings every 30 minutes (or on manual refresh). As of version 2.0, users can also now filter CVE briefings based on severity into three categories: All, High, or Critical.
 ## How It Works/How to Use
 This extension uses the **NIST National Vulnerability Database CVE API** to obtain information on CVEs posted within the past 24 hours.
 This extension opens a tab on browser startup containing the dashboard. On the dashboard, 10 recent CVEs are listed as well as their CVSS scores and severity level. Users can filter their briefings based on severity in three categories: all, high, and critical. 
