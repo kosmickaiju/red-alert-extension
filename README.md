@@ -1,6 +1,6 @@
 # Red Alert: CVE Alert Dashboard Google Chrome Extension
 
-![Chrome](https://img.shields.io/badge/Chrome-Extension-red) ![NVD API](https://img.shields.io/badge/NVD-API-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![Chrome](https://img.shields.io/badge/Chrome-Extension-red) ![NVD API](https://img.shields.io/badge/NVD-API-blue)
 
 Real-time CVE tracking dashboard pulling live data from the NIST NVD API — filter, paginate, and export vulnerabilities without leaving your browser.
 
