@@ -1,9 +1,47 @@
-# Red Alert: CVE Alert Dashboard Google Chrome Extension (Version 3.0 in production!)
+# Red Alert: CVE Alert Dashboard Google Chrome Extension
 
-## What is it?
-This is a Google Chrome extension focused on delivering information about Common Vulnerabilities and Exploits (CVEs) in a simple, easy to understand way. The extension uses a dashboard to provide streamlined briefings about CVEs found and posted within the last 24 hours, refreshing with new briefings every 30 minutes (or on manual refresh). As of version 3.0, pagination features and an "Export to CSV" option have been implemented, and the UI has been refreshed.
-## How It Works/How to Use
-This extension uses the **NIST National Vulnerability Database CVE API** to obtain information on CVEs posted within the past 24 hours.
-This extension opens a tab on browser startup containing the dashboard. On the dashboard, 10 recent CVEs are listed per page as well as their CVSS scores and severity level. Users can filter their briefings based on severity in three categories: all, high, and critical. 
-## Tech Stack
-This extension was written using **HTML/CSS/JS**, with information about CVEs being pulled from the **NVD CVE API**.
+![Chrome](https://img.shields.io/badge/Chrome-Extension-red) ![NVD API](https://img.shields.io/badge/NVD-API-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+
+Real-time CVE tracking dashboard pulling live data from the NIST NVD API — filter, paginate, and export vulnerabilities without leaving your browser.
+
+---
+
+## Features
+
+- Fetches latest CVEs live from the NIST NVD API
+- Filter by severity (Critical / High / Medium / Low) and date range
+- Paginated results to keep the UI fast on large query sets
+- One-click CSV export of current filtered results
+- Animated severity indicators with CSS gradient transitions
+
+---
+
+## Built with
+
+HTML · CSS · JavaScript · Chrome Extensions API (Manifest V3) · NIST NVD API v2.0
+
+---
+
+## Installation
+
+This extension is not yet on the Chrome Web Store. To run locally:
+
+1. Clone or download this repo
+```bash
+git clone https://github.com/kosmickaiju/cve-extension
+```
+2. Open Chrome and navigate to `chrome://extensions`
+3. Enable **Developer mode** (toggle, top right)
+4. Click **Load unpacked** and select the repo folder
+5. The Red Alert icon will appear in your toolbar
+
+> No API key required — the NVD API is public. Rate limit is 5 requests/30s unauthenticated; the extension respects this automatically.
+
+---
+
+## Usage
+
+1. Click the Red Alert icon in your Chrome toolbar
+2. Use the severity filter and date range to narrow results
+3. Scroll through paginated CVE cards
+4. Hit **Export CSV** to download the current filtered set
