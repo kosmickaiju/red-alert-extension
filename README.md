@@ -24,7 +24,7 @@ HTML · CSS · JavaScript · Chrome Extensions API (Manifest V3) · NIST NVD API
 
 ## Installation
 
-This extension is not yet on the Chrome Web Store. To run locally:
+This version of the extension is not yet on the Chrome Web Store. To run locally:
 
 1. Clone or download this repo
 ```bash
@@ -35,7 +35,7 @@ git clone https://github.com/kosmickaiju/cve-extension
 4. Click **Load unpacked** and select the repo folder
 5. The Red Alert icon will appear in your toolbar
 
-> No API key required — the NVD API is public. Rate limit is 5 requests/30s unauthenticated; the extension respects this automatically.
+> No API key required. Rate limit is 5 requests/30s unauthenticated; the extension respects this automatically.
 
 ---
 
