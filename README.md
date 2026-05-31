@@ -18,22 +18,22 @@ Real-time CVE tracking dashboard pulling live data from the NIST NVD API — fil
 
 ## Built with
 
-HTML · CSS · JavaScript · Chrome Extensions API (Manifest V3) · NIST NVD API v2.0
+HTML | CSS | JavaScript | Chrome Extensions API (Manifest V3) | NIST NVD API v2.0
 
 ---
 
-## Installation
+## Installation + Quick Start
 
 This version of the extension is not yet on the Chrome Web Store. To run locally:
 
 1. Clone or download this repo
 ```bash
-git clone https://github.com/kosmickaiju/cve-extension
+git clone https://github.com/kosmickaiju/red-alert-extension
 ```
 2. Open Chrome and navigate to `chrome://extensions`
 3. Enable **Developer mode** (toggle, top right)
 4. Click **Load unpacked** and select the repo folder
-5. The Red Alert icon will appear in your toolbar
+5. The extension will automatically load on next browser startup
 
 > No API key required. Rate limit is 5 requests/30s unauthenticated; the extension respects this automatically.
 
@@ -41,7 +41,8 @@ git clone https://github.com/kosmickaiju/cve-extension
 
 ## Usage
 
-1. Click the Red Alert icon in your Chrome toolbar
+1. The extension will automatically load on browser startup
 2. Use the severity filter and date range to narrow results
 3. Scroll through paginated CVE cards
-4. Hit **Export CSV** to download the current filtered set
+4. Hit **Refresh** to refresh dashboard and display newer CVE reports
+5. Hit **Export CSV** to download the current filtered set
